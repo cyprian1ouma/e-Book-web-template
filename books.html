@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/google.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logo.PNG">
+    <title>Book Stores Library</title>
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- start of navbar -->
+     <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+            <a href="#intro"  class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                    <i class="bi bi-book-half bg-light" ></i>
+                    Homes Books
+                </span>
+            </a>
+            <!-- toggle button for mobile -->
+             <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+             <!-- navbar-links -->
+
+             <div class="collapse navbar-collapse justify-content-end align-center">
+                <div id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a href="#topics" class="nav-link">About The Book</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#reviews" class="nav-link">Reviews</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#contact" class="nav-link">Get in Touch</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#pricing" class="nav-link">Pricing</a>
+                        </li>
+                        <li class="navbar-item ms-2 d-none d-md-inline">
+                            <a href="#pricing" class="btn btn-secondary">Buy Now</a>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+     </nav>
+    <!-- end of navbar -->
+
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Black Belt</div>
+                        <div class="display-5 text-muted">Your Codding Skills</div>
+                    </h1>
+                    <p class="text-muted">
+                        Welcome to TechBook Haven – your ultimate destination for all things IT! Whether you're a coding novice, a seasoned developer, or an IT enthusiast, 
+                        we’ve got the perfect resources to elevate your tech skills. Dive into our extensive collection of e-books, covering the latest in programming,
+                        cybersecurity, AI, and beyond. With expert insights and practical guides, TechBook Haven is here to empower your journey in the tech world.
+                    </p>
+                    <h6><strong>Join our community and start your adventure today!</strong></h6>
+                    <a href="#pricing" class="btn btn-success btn-fw btn-sm border-3 rounded-pill"> Buy Now</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img class="img-fluid" src="./assets/javascript.jpg" alt="Ebook image" style="width: 60%;">
+                </div>
+            </div>
+        </div>
+
+     
+    </section>
+   <!-- cards for pricing -->
+    <section id="pricing" class="bg-5 mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2> Pricing Plans</h2>
+                <p class="lead text-muted">Choose a price plan to suit you.</p>
+            </div>
+
+            <div class="row my-5 align-item-center justify-content-center">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Start Edition</h4>
+                            <p class="lead card-subtitle">eBook download only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem</p>
+                            <a href="" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-title text-center">The Book</div>
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Start Edition</h4>
+                            <p class="lead card-subtitle">eBook download only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$18.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem</p>
+                            <a href="" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Start Edition</h4>
+                            <p class="lead card-subtitle">eBook download only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem</p>
+                            <a href="" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- accordion -->
+        <div class="container">
+            <div class="text-center">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         <h5 class="text-center-primary ">Books Available in our Selves</h5> 
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <div class="row">
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">Python Programming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">Javacript programming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">Java Programming Books.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">PHPProgramming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">C Programming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">C++ Programming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">C# Programming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">TypeScript Programming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">Kotlin Programming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">RustProgramming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">Go Programming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="text-center">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-body">
+                                            <p class="card-text">Rubby Programming Book.</p>
+                                            </div>
+                                        </div>
+                                    </h6>
+                                </div>
+                          </div>
+
+                          <div class="row">
+                            <h6 class="text-center text-success m-5">Frameworks</h6>
+                            <div class="col">
+                                <h6 class="text-center">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <p class="card-text">JavaScript.</p>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h6 class="text-danger">FrameWork</h6>
+                                                    <h6>React</h6>
+                                                    <h6>Angular</h6>
+                                                    <h6>Vue</h6>
+                                                </div>
+                                                <div class="col">
+                                                    <h6 class="text-danger">Libraries</h6>
+                                                    <h6>jQuery</h6>
+                                                    <h6>Three Js</h6>
+                                                    <h6>Redux</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </h6>
+                            </div>
+                            <div class="col">
+                                <h6 class="text-center">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                          <p class="card-text">Python</p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <h6 class="text-danger">FrameWorks</h6>
+                                                <h6>Django</h6>
+                                                <h6>Flask</h6>
+                                                <h6>Pyramid</h6>
+                                            </div>
+                                            <div class="col">
+                                                <h6 class="text-danger">Libraries</h6>
+                                                <h6>NumPy</h6>
+                                                <h6>Pandas</h6>
+                                                <h6>MatPlotLib</h6>
+                                            </div>
+                                        </div>
+                                      </div>
+                                </h6>
+                            </div>
+
+                            <div class="col">
+                                <h6 class="text-center">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                          <p class="card-text">Java</p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <h6 class="text-danger"> FrameWorks</h6>
+                                                <h6>Spring</h6>
+                                                <h6>Hibernate</h6>
+                                            </div>
+                                            <div class="col">
+                                                <h6 class="text-danger"> Libraries</h6>
+                                                <h6>Apache Commons</h6>
+                                                <h6>JUnit</h6>
+                                            </div>
+                                        </div>
+                                      </div>
+                                </h6>
+                            </div>
+                          </div>
+                          <div class="ml-5">
+                            <h5 class="text-success">All books are available</h5>
+                            <h6 class="text-success">Get in Touch to Know More</h6>
+                            <button type="button" class="btn btn-primary" id="contact">Buy</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <!-- list group -->
+        <section class="bg-light mt-3">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2><i class="bi bi-stars"></i> Site and Books Reviews</h2>
+                    <p class="lead">What Our customets and students say..</p>
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item" aria-current="true">Comprehensive Resource for IT Professionals</li>
+                                        <p>This website is a treasure trove for IT professionals seeking to deepen their knowledge. The range of e-books covers everything from networking to cybersecurity. The content is up-to-date and relevant,
+                                            making it a reliable source for anyone looking to enhance their skills.
+                                        </p>
+                                        <small class="text-float-3 m-2 text-info">Reviewed By Cyprian Ouma</small>
+                                        <div class="p-3 item-color-danger">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </ul>
+                                </div>
+                                
+                                <div class="col">
+                                <ul class="list-group">
+                                     <li class="list-group-item">Affordable and High-Quality Content</li>
+                                     <p>The pricing model for the e-books is very reasonable compared to other platforms. I found numerous high-quality resources at a fraction of the cost of traditional textbooks. 
+                                        It’s a great investment for students and professionals alike!
+                                     </p>
+                                    <small class="text-float-3 m-2 text-info">Reviewed By Cyprian Ouma</small>
+                                    <div class="p-3 item-color-danger">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </ul>
+                              </div>
+                             
+                            </div>
+                            <div class="row">
+                                    <div class="col">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Regular Updates and New Releases</li>
+                                            <p>The website frequently updates its library with new releases. As someone who likes to stay current with industry trends, I appreciate that I can find the latest resources right here.
+                                                It’s clear that the team behind the site is committed to keeping their offerings fresh.
+                                            </p>
+                                            <small class="text-float-3 m-2 text-info">Reviewed By Cyprian Ouma</small>
+                                            <div class="p-3 item-color-danger">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-half"></i>
+                                                <i class="bi bi-star-half"></i>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div class="list-group">
+                                            <li class="list-group-item">Excellent Customer Support</li>
+                                            <p>I had a minor issue with my purchase, and the customer support team responded promptly and professionally. They resolved my issue quickly, making me feel valued as a customer. 
+                                                It’s refreshing to see such dedication to user satisfaction.
+                                            </p>
+                                            <small class="text-float-3 m-2 text-info">Reviewed By Cyprian Ouma</small>
+                                            <div class="p-3 item-color-danger">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-half"></i>
+                                                <i class="bi bi-star-half"></i>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="bg-info mt-5">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h3><i class="bi bi-microsoft-teams"></i> Get in Touch with Our Teams</h3>
+                    <p class="lead"><i class="bi bi-question-circle"></i> Question to ask,fill out the form bellow and hit the submit button..</p>
+                </div>
+                <div class="row justify-content-center my-5">
+                    <div class="col-6">
+                        <form action="">
+                            <label for="name" class="form-label">First Name:</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                     <i class="bi bi-person-circle"></i>
+                                </span>
+                                <input type="text" class="form-control" id="fullaname" placeholder="Cyprian">
+                            </div> 
+                        </form>
+                    </div>
+                    <div class="col-6">
+                        <form action="">
+                            <label for="name" class="form-label">Second Name:</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-person-circle"></i>
+                                </span>
+                                <input type="text" class="form-control" id="fullaname" placeholder="Ouma">
+                            </div>
+                          
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <form action="">
+                            <label for="email" class="form-label">Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope-arrow-down-fill"></i>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="cyprianouma@gmail.com">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-6">
+                        <form action="">
+                            <label for="contact" class="form-label">Contact</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                </span>
+                                <input type="text" class="form-control" id="contact"placeholder="+1234567890">
+                            </div>
+                        </form>
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col-4 item-align-center mt-3">
+                        <form action="">
+                            <label for="message" class="form-label">Subject</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-check2-circle"></i>
+                                </span>
+                                <select name="selectsubject" id="selectsubject" class="form-control"> 
+                                    <option value="">&lt;Choose&gt; </option>
+                                    <option value="0">Pricing Details</option>
+                                    <option value="1">Books Enguiry</option>
+                                    <option value="2">Othe Enguiries</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col text-center mt-3">
+                        <form action="">
+                            <label for="message" class="form-label">Subject</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-chat-left-dots-fill"></i>
+                                </span>
+                                <textarea name="meaage" id="message" class="form-control ml-5" style="height: 150px;" placeholder="Enquire here"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" style="margin-left: 200px;"class="btn btn-lg btn-primary m-3" id="savecontactinfo">Submit</button>
+                </div>                
+            </div>
+        </section>
+    </section>
+    <div class="container my-5">
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-dark"
+            style="background-color: hwb(0 98% 2%)">
+      <!-- Section: Social media -->
+      <section
+            class="d-flex justify-content-between p-4 text-white"
+            style="background-color: #21D192" >
+            <div class="me-5">
+            <span>Get connected with us on social networks:</span>
+            </div>
+            <div>
+            <a href="#" class="text-white me-4">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="text-white me-4">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="#" class="text-white me-4">
+                <i class="bi bi-telegram"></i>
+            </a>
+            <a href="#" class="text-white me-4">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="text-white me-4">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="#" class="text-white me-4">
+                <i class="bi bi-tiktok"></i>
+            </a>
+            </div>
+      </section>
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold">E-Books LMTD</h6>
+                    <hr
+                        class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                    <p>
+                       Welcome to e-Book system where you codding beggins, take beby steps untill you walk 
+                       to you dream skills and master various programming languages and journey!
+                    </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold">Products</h6>
+                    <hr
+                        class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px"
+                        />
+                    <p>
+                        <a href="#!" class="text-dark">Software Development Quide Books</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-dark">Web Development Quide Books</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-dark">Data Science and Machine Learning Quide Books</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-dark">Cyber Security Quide Books</a>
+                    </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Useful links</h6>
+                        <hr
+                            class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px"
+                            />
+                        <p>
+                            <a href="#!" class="text-dark">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-dark">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-dark">Book Prices</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-dark">Book Prices</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-dark">Become a Life Patner</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr
+                            class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px"
+                            />
+                        <p><i class="bi bi-house-fill"></i> Nairobi - Kenya</p>
+                        <p><i class="bi bi-envelope-fill"></i> cyprianmitheme2000@gmail.com</p>
+                        <p><i class="bi bi-telephone"></i> +254745408553</p>
+                        <p><i class="bi bi-printer-fill"></i> +254745408553</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)">© 2024 Copyright:<a class="text-dark" href="cyprianmitheme2000@gmail.com"> Cyprian Ouma</a>
+        </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
